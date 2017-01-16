@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@drawable/ic_cloud_black_48dp"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label1"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.puri.appshortcutexample"
+            android:targetClass="com.puri.appshortcutexample.MenuActivity"
+            android:data="hello world"
+            >
+
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="compose2"
+        android:enabled="true"
+        android:icon="@drawable/ic_cloud_black_48dp"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label2"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.puri.appshortcutexample"
+            android:targetClass="com.puri.appshortcutexample.MenuActivity"
+            android:data="hello world2"
+            >
+
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="compose3"
+        android:enabled="true"
+        android:icon="@drawable/ic_cloud_black_48dp"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label3"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.puri.appshortcutexample"
+            android:targetClass="com.puri.appshortcutexample.MenuActivity"
+            android:data="hello world3"
+
+            >
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>

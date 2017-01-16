@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppShortcutExample</string>
+    <string name="compose_shortcut_short_label1">hellloooo1</string>
+    <string name="compose_shortcut_long_label1">Helolllllloolololo</string>
+    <string name="compose_shortcut_short_label2">hjhjhjh</string>
+    <string name="compose_shortcut_short_label3">lkjlkjlkh</string>
+
+</resources>
